@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversario</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="index.html">❤️</a> <a class="nav-link text-light" href="index.html">C y E</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-light" href="historia.html">Nuestra Historia</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="galeria.html">Planes futuros</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="mensajes.html">Dedicatorias</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="inicio" style="background: url('img/p1.jpg') no-repeat center center; background-size: cover; height: 100vh; display: flex; justify-content: center; align-items: center; color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
+    <div class="text-center ">
+        <h1>¡Feliz Primer Aniversario!</h1>
+        <p class="lead"><h1>✨❤️ Dios los crea y ellos se juntan ❤️✨</h1></p>
+        <p class="lang">Un año lleno de momentos inolvidables</p>
+        <a href="#p1" class="btn btn-primary btn-lg mt-3">Este espacio es solo para ti</a>
+    </div>
+  </section>
+
+    <div class="container my-5" id="p1">
+        <div class="row g-3">
+            <!-- Primera tarjeta -->
+            <div class="col-md-6">
+            <div class="card mb-3 shadow-sm  " style="max-width: 540px; margin: 0 auto;">
+                <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="img/1p.webp" class="img-fluid rounded-start" alt="Imagen 1">
+                </div>
+                <div class="col-md-8 bg-primary">
+                    <div class="card-body text-white">
+                    <h5 class="card-title">Este espacio es solo para ti</h5>
+                    <p class="card-text">Un rincón donde guardaremos todos esos momentos que hemos vivido juntos, las risas, los abrazos, los pequeños detalles que hacen que cada día a tu lado sea único. Esta página refleja lo que somos, lo que hemos compartido y todo lo que aún nos queda por vivir. Gracias por ser mi inspiración, mi compañera y mi todo. Cada recuerdo contigo es un regalo que atesoro. Esta es nuestra historia, nuestra aventura. Te amo.</p>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" 
+                data-bs-target="#modal1" onclick="mostrarMensajedeamor()">
+                        Presioname cuando este ocupado y no te pueda decir algo lindo
+                    </button>
+                </div>
+
+            </div>
+            </div>
+        
+            <!-- Segunda tarjeta -->
+            <div class="col-md-6">
+            <div class="card mb-3 shadow-sm" style="max-width: 540px; margin: 0 auto;">
+                <div class="row g-0">
+
+                <div class="col-md-8 bg-dark">
+                    <div class="card-body bg-dark text-white">
+                        <h5 class="card-title">Similares y diferentes</h5>
+                        <p class="card-text">Lo increíble de nuestra relación es cómo somos tan diferentes, pero al mismo tiempo tan iguales. Desde el primer momento congeniamos de una manera natural, como si nos conociéramos desde siempre. Cada uno aporta su toque único, pero juntos somos más fuertes, más felices. Gracias por compartir conmigo tus sueños, tus risas y hasta tus silencios. Te amo, por lo que eres y por lo que juntos somos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 bg-dark">
+                    <img src="img/2p.webp" class="img-fluid rounded-start" alt="Imagen 2">
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" 
+                        data-bs-target="#modal2" onclick="mostrarMensajetriste()">
+                    Presioname cuando estes triste y no te pueda dar un abrazo
+                </button>
+
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Button trigger modal -->
+
+  
+        <div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal1Label">mensajito con mucho amor</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalMensaje1">
+                  I love you
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal1Label">mensajito con mucho cariño</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalMensaje2">
+                  I love you
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+
+  
+  <footer class="bg-primary text-white text-center py-3">
+    <p>Con amor, para mi persona especial ❤️</p>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Aquí puedes agregar hasta mil frases
+    const mensajes = [
+"Eres el motivo por el que creo en los finales felices.",
+  "Tu amor es mi mayor alegría.",
+  "No importa dónde estemos, contigo estoy en casa.",
+  "Eres la razón de mi mejor sonrisa.",
+  "Tu mirada es mi refugio.",
+  "Amarte es mi decisión favorita.",
+  "Eres el sol que ilumina mis días.",
+  "Tu amor es un sueño hecho realidad.",
+  "Eres mi mayor bendición.",
+  "Contigo todo es más hermoso.",
+  "Tu amor da sentido a mi vida.",
+  "Eres el latido de mi corazón.",
+  "Gracias por existir en mi mundo.",
+  "Eres mi fuente de felicidad.",
+  "Tu amor es mi mayor inspiración.",
+  "No hay palabras para describir cuánto te amo.",
+  "Eres el mejor regalo que la vida me dio.",
+  "Cada instante contigo es inolvidable.",
+  "Eres mi razón de ser.",
+  "Tu amor es mi refugio y mi fuerza.",
+  "Eres mi dulce aventura.",
+  "Cada día a tu lado es especial.",
+  "Eres mi estrella guía.",
+  "Tu amor es el tesoro más grande.",
+  "Eres mi complemento perfecto.",
+  "Te amo más allá del infinito.",
+  "Tu sonrisa llena mi corazón de alegría.",
+  "Eres mi razón para soñar despierto.",
+  "Tu amor me da paz y felicidad.",
+  "Eres mi eterno amanecer.",
+  "Tu amor me hace invencible.",
+  "Eres mi mayor razón para ser feliz.",
+  "Cada momento contigo es mágico.",
+  "Eres el amor que siempre esperé.",
+  "Tu risa es mi música favorita.",
+  "Eres el poema más hermoso de mi vida.",
+  "Amarte es mi destino.",
+  "Eres mi historia favorita.",
+  "No hay amor más grande que el nuestro.",
+  "Eres mi refugio en la tormenta.",
+  "Tu amor es mi mayor fortaleza.",
+  "Eres la luz de mis días grises.",
+  "Tu amor transforma todo en belleza.",
+  "Eres mi felicidad en persona.",
+  "Gracias por ser mi todo.",
+  "Eres mi mejor decisión.",
+  "No hay un día que no te ame más.",
+  "Eres mi inspiración diaria.",
+  "Tu amor es el mejor regalo.",
+  "Eres mi alegría eterna.",
+  "Amarte es mi propósito en la vida.",
+  "Eres mi mejor aventura.",
+  "Tu amor me da alas para volar.",
+  "Eres mi mayor motivación.",
+  "Cada beso tuyo es un milagro.",
+  "Eres mi mayor logro.",
+  "No hay amor más puro que el nuestro.",
+  "Eres mi sonrisa favorita.",
+  "Tu amor ilumina mi alma.",
+  "Eres mi vida entera.",
+  "Te amo más de lo que puedo explicar.",
+  "Eres mi mejor razón para vivir.",
+  "Tu amor me llena de esperanza.",
+  "Eres mi refugio en este mundo.",
+  "Amarte es mi elección cada día.",
+  "Eres el amor de mi vida.",
+  "Tu amor da calor a mi alma.",
+  "Eres mi principio y mi fin.",
+  "Gracias por ser mi todo.",
+  "Eres mi arcoíris después de la lluvia.",
+  "Tu amor me hace mejor persona.",
+  "Eres mi razón para creer en la magia.",
+  "Tu amor es mi mayor bendición.",
+  "Eres el capítulo más bello de mi historia.",
+  "Amarte es lo mejor que me ha pasado.",
+  "Eres mi constante en este mundo cambiante.",
+  "Tu amor me llena de luz.",
+  "Eres mi sueño más hermoso.",
+  "Tu amor es mi refugio eterno.",
+  "Eres el centro de mi universo.",
+  "Cada caricia tuya es un regalo.",
+  "Eres mi melodía favorita.",
+  "Tu amor me da fuerzas cada día.",
+  "Eres mi eterno compañero.",
+  "Eres mi mayor motivación para ser feliz.",
+  "Tu amor es el faro que guía mi vida.",
+  "Eres mi refugio en los momentos difíciles.",
+  "Tu amor llena cada rincón de mi alma.",
+  "Eres mi para siempre.",
+  "Cada instante contigo es un tesoro.",
+  "Tu amor me da sentido.",
+  "Eres mi mejor elección.",
+  "Tu amor hace que todo valga la pena.",
+  "Eres el comienzo y el final de mi día.",
+  "Tu amor es mi mayor fortuna.",
+  "Eres mi ángel terrenal.",
+  "Cada abrazo tuyo es mi hogar.",
+  "El amor lo es todo.",
+  "Eres mi razón de sonreír.",
+  "Contigo todo es mejor.",
+  "Mi corazón late por ti.",
+  "El amor es mi refugio cuando estoy contigo.",
+  "No hay nadie más en mi mundo, solo tú.",
+  "La vida sin ti no tiene sentido.",
+  "Eres el sueño que nunca quiero despertar.",
+  "A tu lado, el tiempo se detiene.",
+  "Tus ojos son mi lugar favorito.",
+  "Si el amor es un viaje, quiero recorrerlo contigo.",
+  "En tus brazos encuentro mi paz.",
+  "Cada día te quiero más.",
+  "No importa el tiempo, siempre seremos uno.",
+  "El amor verdadero no tiene fin.",
+  "Eres la historia más bonita de mi vida.",
+  "No necesito nada más, solo tu amor.",
+  "Con cada mirada, me enamoro más.",
+  "La felicidad se llama tu nombre.",
+  "Mi amor por ti no tiene límites.",
+  "Tu sonrisa ilumina mi vida.",
+  "Eres el motivo de mi felicidad.",
+  "Juntos somos invencibles.",
+  "Tu amor es mi fuerza.",
+  "No hay nada más puro que nuestro amor.",
+  "Eres mi mundo entero.",
+  "Tu risa es mi melodía favorita.",
+  "Eres la luz en mi oscuridad.",
+  "Te amo más allá de las palabras.",
+  "Siempre serás mi elección.",
+  "Tú haces que todo valga la pena.",
+  "Amarte es mi mayor privilegio.",
+  "Eres el mejor regalo de mi vida.",
+  "Mi corazón es tuyo para siempre.",
+  "Eres mi presente y mi futuro.",
+  "Te amo como nunca imaginé amar.",
+  "Tu amor me completa.",
+  "Eres la calma en mi tormenta.",
+  "Gracias por ser mi todo.",
+  "Mi vida es mejor contigo en ella.",
+  "Amarte es fácil, no hacerlo es imposible.",
+  "Eres el sol que ilumina mi día.",
+  "Eres mi refugio en este mundo loco.",
+  "No existe nada más hermoso que tú.",
+  "Tú eres mi felicidad eterna.",
+  "Eres el latido de mi corazón.",
+  "Cada segundo contigo es mágico.",
+  "Eres mi razón de vivir.",
+  "Tu amor me da alas.",
+  "Eres el poema más bonito que jamás escribiré.",
+  "Nuestro amor no tiene fronteras.",
+  "Contigo soy la mejor versión de mí.",
+  "Eres mi alma gemela.",
+  "Tu amor es mi mayor tesoro.",
+  "Eres el capítulo más bonito de mi vida.",
+  "Siempre estaré contigo, pase lo que pase.",
+  "Eres el amanecer de mi vida.",
+  "No importa dónde esté, siempre estaré contigo.",
+  "Eres mi mejor sueño hecho realidad.",
+  "Nuestro amor es eterno.",
+  "Tú haces que mi mundo tenga sentido.",
+  "Eres la estrella que guía mi vida.",
+  "Tu amor es mi hogar.",
+  "Eres mi destino.",
+  "Tu risa es mi alegría.",
+  "Tú llenas mi corazón de felicidad.",
+  "Eres mi universo.",
+  "Te amo más de lo que las palabras pueden decir.",
+  "Eres la razón por la que creo en el amor.",
+  "Amarte es mi misión en la vida.",
+  "Eres mi fuente de inspiración.",
+  "Tu amor hace que todo sea posible.",
+  "Siempre serás mi razón para sonreír.",
+  "Eres mi luz en la oscuridad.",
+  "Eres el amor que siempre soñé.",
+  "Eres mi lugar feliz.",
+  "Cada día a tu lado es un regalo.",
+  "Tu amor es mi refugio.",
+  "Eres mi más dulce realidad.",
+  "Nuestro amor es un milagro.",
+  "Eres mi ángel en la tierra.",
+  "Tu amor es mi bendición.",
+  "Eres mi todo, mi siempre.",
+  "Tú haces que mi corazón cante.",
+  "Te amo con cada parte de mi ser.",
+  "Eres mi paraíso en la tierra.",
+  "Tu amor llena mi vida de colores.",
+  "Eres mi paz en el caos.",
+  "Amarte es mi mayor aventura.",
+  "Eres mi felicidad infinita.",
+  "Tu amor es mi puerto seguro.",
+  "Eres la razón por la que me levanto cada día.",
+  "Eres mi vida, mi amor, mi todo.",
+  "Tu amor me da esperanza.",
+  "Siempre serás mi gran amor.",
+  "Eres mi mayor bendición diaria.",
+  "Tu amor es mi brújula.",
+  "Eres mi sol incluso en los días nublados.",
+  "Amarte es como respirar, algo esencial.",
+  "Eres la melodía que nunca me canso de escuchar.",
+  "Tu sonrisa es mi paisaje favorito.",
+  "Eres mi paz en este mundo caótico.",
+  "Tu amor ilumina los rincones más oscuros de mi vida.",
+  "Eres mi constelación favorita.",
+  "Amarte es mi aventura más dulce.",
+  "Eres mi capítulo perfecto en este libro llamado vida.",
+  "Cada día contigo es una celebración.",
+  "Eres mi refugio seguro.",
+  "Tu amor llena mi corazón de esperanza.",
+  "Eres mi mayor debilidad y mi fortaleza.",
+  "Amarte es mi milagro cotidiano.",
+  "Eres el eco de mi felicidad.",
+  "Tu amor da sentido a mis días.",
+  "Eres la poesía en mi prosa.",
+  "Amarte es tan fácil como respirar.",
+  "Eres la flor más hermosa de mi jardín.",
+  "Tu amor me hace completo.",
+  "Eres mi horizonte en cada amanecer.",
+  "Tu amor es mi estrella polar.",
+  "Eres mi risa más sincera.",
+  "Amarte es lo que da magia a mi existencia.",
+  "Eres mi cuento de hadas hecho realidad.",
+  "Tu amor es mi mejor medicina.",
+  "Eres el puente entre mis sueños y mi realidad.",
+  "Amarte es el privilegio de mi vida.",
+  "Eres la chispa que enciende mi alma.",
+  "Tu amor da calma a mi tempestad.",
+  "Eres mi inspiración infinita.",
+  "Amarte es la aventura de mi vida.",
+  "Eres mi mejor regalo cada día.",
+  "Tu amor es el refugio donde quiero quedarme.",
+  "Eres la razón por la que sonrío sin motivo.",
+  "Amarte es mi mayor logro.",
+  "Eres la luz en mi oscuridad.",
+  "Tu amor es la melodía de mi corazón.",
+  "Eres la respuesta a todas mis oraciones.",
+  "Amarte es la esencia de mi ser.",
+  "Eres la calma en medio del caos.",
+  "Tu amor transforma lo ordinario en extraordinario.",
+  "Eres mi para siempre.",
+  "Amarte es el arte más hermoso.",
+  "Eres mi equilibrio perfecto.",
+  "Tu amor me hace volar.",
+  "Eres mi hogar.",
+  "Amarte es mi privilegio más grande.",
+  "Eres mi inspiración cada amanecer.",
+  "Tu amor llena de colores mi vida.",
+  "Eres mi refugio eterno.",
+  "Amarte es mi única certeza.",
+  "Eres el centro de mi universo.",
+  "Tu amor es el faro que guía mi vida.",
+  "Eres mi razón para creer en los milagros.",
+  "Amarte es mi decisión diaria.",
+  "Eres mi tesoro más preciado.",
+  "Tu amor es mi cielo en la tierra.",
+  "Eres mi esperanza en los días grises.",
+  "Amarte es como caminar entre estrellas.",
+  "Eres mi poema favorito.",
+  "Tu amor es la base de mi felicidad.",
+  "Eres mi momento más esperado cada día.",
+  "Amarte es mi verdad más pura.",
+  "Eres el fuego que calienta mi alma.",
+  "Tu amor es mi refugio eterno.",
+  "Eres mi deseo hecho realidad.",
+  "Amarte es mi promesa eterna.",
+  "Eres mi guía en la oscuridad.",
+  "Tu amor da alas a mis sueños.",
+  "Eres mi infinito favorito.",
+  "Amarte es el sentido de mi vida.",
+  "Eres mi estrella brillante.",
+  "Tu amor me llena de paz.",
+  "Eres mi anhelo cumplido.",
+  "Amarte es mi razón para existir.",
+  "Eres mi mejor destino.",
+  "Tu amor es mi mayor fortuna.",
+  "Eres mi chispa de alegría.",
+  "Amarte es mi mayor felicidad.",
+  "Eres mi sueño hecho realidad.",
+  "Tu amor me completa.",
+  "Eres mi refugio en el tiempo.",
+  "Amarte es mi mayor privilegio.",
+  "Eres mi sol cada mañana.",
+  "Tu amor es mi mayor certeza."
+];
+    const mensajesMotivacionales = [
+  "El éxito no se mide por lo que logras, sino por los obstáculos que superas en el camino.",
+  "No importa cuán lento vayas, siempre y cuando no te detengas.",
+  "Cada nuevo día es una oportunidad para escribir una historia mejor.",
+  "La grandeza no se encuentra en nunca fallar, sino en levantarse cada vez que caes.",
+  "Los sueños no tienen fecha de caducidad. Respira, comienza de nuevo y sigue adelante.",
+  "El único límite para alcanzar tus metas eres tú mismo.",
+  "Cree en ti, incluso cuando nadie más lo haga, porque tú eres tu mayor apoyo.",
+  "No dejes que el miedo a fallar te impida jugar el juego.",
+  "El camino puede ser difícil, pero la vista desde la cima valdrá la pena.",
+  "La verdadera fuerza no se mide en lo que puedes cargar, sino en lo que superas.",
+  "Cada paso que das hacia adelante, por pequeño que sea, te acerca a tu objetivo.",
+  "La vida no se trata de esperar a que pase la tormenta, sino de aprender a bailar bajo la lluvia.",
+  "El fracaso es simplemente la oportunidad de comenzar de nuevo, pero con más experiencia.",
+  "El éxito no es el final, el fracaso no es fatal: lo que cuenta es el coraje para continuar.",
+  "Cada día es una nueva página; escribe una historia que valga la pena contar.",
+  "No te compares con los demás, compárate con la persona que eras ayer.",
+  "El único lugar donde el éxito viene antes que el trabajo es en el diccionario.",
+  "No tengas miedo de caminar solo. La fuerza viene de encontrar tu propio camino.",
+  "La perseverancia puede transformar lo imposible en inevitable.",
+  "El esfuerzo que pones hoy será la recompensa que disfrutes mañana.",
+  "El futuro pertenece a aquellos que creen en la belleza de sus sueños.",
+  "Si puedes soñarlo, puedes hacerlo. No hay límites excepto los que tú mismo te impones.",
+  "El mayor fracaso es nunca haberlo intentado.",
+  "Tu presente no define tu futuro; tus decisiones sí lo hacen.",
+  "El éxito no siempre es grande, a veces está en las pequeñas victorias del día a día.",
+  "El cambio comienza cuando decides dar el primer paso, sin importar lo pequeño que sea.",
+  "Tu actitud determina tu altitud. Mantén la cabeza en alto y el corazón valiente.",
+  "No esperes el momento perfecto; haz que el momento sea perfecto.",
+  "Recuerda que cada día es un nuevo comienzo lleno de oportunidades infinitas.",
+  "El poder de los sueños no reside en soñarlos, sino en perseguirlos con pasión.",
+  "No te preocupes por los errores; son pruebas de que estás intentando.",
+  "La felicidad no es algo que encuentres al final del camino; está en cada paso del viaje.",
+  "Siembra esfuerzo, cosecha éxitos. Todo lo bueno requiere tiempo y dedicación.",
+  "El mayor acto de valentía es intentarlo una vez más.",
+  "Nunca permitas que nadie apague la luz que brilla dentro de ti.",
+  "El límite no está en el cielo, sino en tu mente.",
+  "La vida recompensa a quienes se atreven a dar lo mejor de sí mismos.",
+  "Tus sueños no necesitan la aprobación de nadie más; simplemente necesitan tu esfuerzo.",
+  "El éxito no se trata de ganar, sino de no rendirse nunca.",
+  "Cambia tus pensamientos y cambiarás tu mundo.",
+  "El crecimiento comienza fuera de tu zona de confort.",
+  "El poder está en lo que haces, no en lo que dices que harás.",
+  "El tiempo nunca será el adecuado; el momento perfecto es ahora.",
+  "La disciplina es el puente entre los sueños y los logros.",
+  "Cada pequeña acción cuenta; nunca subestimes el impacto de un pequeño paso hacia adelante.",
+  "Haz hoy lo que tu yo del futuro agradecerá.",
+  "No busques ser perfecto, busca ser mejor que ayer.",
+  "El éxito no se regala; se gana con esfuerzo y dedicación.",
+  "Sé el cambio que deseas ver en el mundo.",
+  "El único límite para lo que puedes lograr es el que tú mismo te pones.",
+  "En cada desafío hay una oportunidad para crecer y aprender.",
+  "Las grandes cosas se logran con pequeñas acciones repetidas consistentemente.",
+  "Confía en el proceso, incluso cuando no veas resultados inmediatos.",
+  "La felicidad se encuentra en el camino, no en la meta.",
+  "La única manera de lograr lo imposible es creer que es posible.",
+  "No te rindas; a menudo la última llave es la que abre la puerta.",
+  "La adversidad no te define; cómo la enfrentas, sí.",
+  "Cada día es una nueva oportunidad para ser mejor que ayer.",
+  "El éxito no es para los más fuertes ni los más rápidos, sino para los más persistentes.",
+  "El único lugar donde encuentras el éxito antes del trabajo es en el diccionario.",
+  "No dejes que los errores del pasado roben tu presente.",
+  "Sé valiente; lo mejor siempre llega después de los momentos más difíciles.",
+  "Tu mente es un campo; cultiva pensamientos positivos y recogerás éxitos.",
+  "El fracaso no es el final; es el camino hacia el aprendizaje.",
+  "No importa lo lento que vayas, siempre y cuando no te detengas.",
+  "Los límites existen solo en tu mente; atrévete a romperlos.",
+  "El esfuerzo de hoy construye el éxito del mañana.",
+  "El verdadero fracaso es nunca haberlo intentado.",
+  "Tus acciones de hoy son las semillas de tus logros futuros.",
+  "No permitas que tus temores sean más grandes que tus sueños.",
+  "Todo logro grande comienza con una decisión pequeña.",
+  "La grandeza se construye un paso a la vez.",
+  "El único camino al éxito es seguir avanzando, incluso en los días más difíciles.",
+  "No te preocupes por la velocidad; preocúpate por la dirección.",
+  "Nunca es tarde para convertirte en lo que podrías haber sido.",
+  "Tu vida es el resultado de tus decisiones, no de tus circunstancias.",
+  "Cree en ti mismo y en todo lo que eres capaz de lograr.",
+  "Los desafíos son las herramientas que construyen tu carácter.",
+  "No esperes el momento perfecto; hazlo ahora, con lo que tienes.",
+  "La perseverancia siempre triunfa sobre el talento.","El amor es la fuerza que transforma y eleva el alma.",
+  "No importa lo que enfrentes, siempre estaré contigo.",
+  "Juntos, nuestra historia será una inspiración para otros.",
+  "Eres la razón por la que cada día quiero ser mejor.",
+  "El éxito sabe mejor cuando es compartido contigo.",
+  "Cada día es una nueva oportunidad para amarte aún más.",
+  "Tu amor ilumina mi camino incluso en los momentos más oscuros.",
+  "Cuando estás a mi lado, todo parece posible.",
+  "Eres el motivo detrás de cada uno de mis logros.",
+  "Contigo aprendí que el verdadero amor impulsa hacia adelante.",
+  "El amor no se mide por los logros, sino por el apoyo mutuo en el camino.",
+  "Juntos somos imparables porque nuestro amor es nuestra fortaleza.",
+  "El amor es la chispa que enciende la pasión por alcanzar nuestras metas.",
+  "Cada desafío es una oportunidad para demostrar el poder de nuestro amor.",
+  "Eres el sueño que inspira todos mis días.",
+  "Amarte es mi mayor motivación para enfrentar cada reto.",
+  "Tu apoyo incondicional es mi mayor tesoro.",
+  "Juntos construimos no solo sueños, sino un futuro lleno de amor.",
+  "En tu abrazo encuentro la fuerza para seguir adelante.",
+  "El amor es el motor que impulsa cada paso que doy.",
+  "Tu sonrisa es mi recordatorio de que todo vale la pena.",
+  "Nuestro amor no conoce límites porque crecemos juntos.",
+  "Cada pequeño esfuerzo es un gran paso cuando lo hacemos unidos.",
+  "Eres la inspiración detrás de mi deseo de triunfar.",
+  "Contigo aprendí que el amor verdadero no es estático, evoluciona.",
+  "Nuestro amor es la mayor inversión que podemos hacer.",
+  "Tu amor es mi impulso y mi destino.",
+  "Amarte me da fuerzas para superar cualquier adversidad.",
+  "Juntos construimos un amor que es a prueba de todo.",
+  "Cuando el amor guía, el éxito se vuelve inevitable.",
+  "Tu amor me enseña que el verdadero éxito está en compartir.",
+  "Juntos somos un equipo que puede conquistar cualquier sueño.",
+  "Eres el ancla que me da estabilidad y la vela que me impulsa a avanzar.",
+  "En cada desafío, tu amor es mi refugio.",
+  "Nuestro amor es el puente que une los sueños con la realidad.",
+  "Amarte me inspira a enfrentar cada día con valentía.",
+  "Tu amor hace que todo esfuerzo valga la pena.",
+  "Eres la razón por la que nunca dejo de intentar.",
+  "El amor verdadero es el impulso que transforma los desafíos en oportunidades.",
+  "Juntos hemos aprendido que las dificultades son temporales, pero el amor es eterno.",
+  "Tu amor es la base sobre la que construyo cada uno de mis logros.",
+  "Amarte me hace invencible ante cualquier obstáculo.",
+  "Nuestro amor es la prueba de que el esfuerzo compartido da frutos.",
+  "Tu amor es el faro que me guía hacia mis metas.",
+  "Juntos somos un equipo que no conoce límites.",
+  "Eres la inspiración detrás de cada decisión que tomo.",
+  "Amarte me da la certeza de que todo es posible.",
+  "Cuando estás conmigo, todo parece más fácil de lograr.",
+  "Eres el motor que impulsa cada uno de mis sueños.",
+  "Nuestro amor es la prueba de que el trabajo en equipo lo es todo.",
+  "Eres mi razón para creer en un futuro mejor.",
+  "Cada día contigo es una lección de amor y resiliencia.",
+  "Amarte me da la fuerza para enfrentar cada día con esperanza.",
+  "Tu amor es la chispa que enciende mi pasión por la vida.",
+  "Eres la inspiración detrás de cada uno de mis logros.",
+  "Juntos no hay barrera que no podamos superar.",
+  "El amor verdadero no solo motiva, transforma.",
+  "Eres mi refugio y mi mayor motivación.",
+  "En tu amor encuentro la fuerza para seguir adelante.",
+  "Contigo, los desafíos son oportunidades disfrazadas.",
+  "Nuestro amor es la prueba de que juntos somos mejores.",
+  "Amarte me inspira a alcanzar lo imposible.",
+  "Tu amor me enseña que siempre hay una razón para seguir adelante.",
+  "Juntos construimos un amor que es indestructible.",
+  "Eres mi mayor inspiración y mi razón para soñar.",
+  "Cada día contigo es una nueva oportunidad para crecer.",
+  "Amarte es el mayor regalo que la vida me ha dado.",
+  "Tu amor es el motor que impulsa mi corazón a seguir adelante.",
+  "Cuando el amor guía, no hay nada que temer.",
+  "Eres el ejemplo perfecto de que los sueños se hacen realidad.",
+  "Juntos no hay meta demasiado lejana.",
+  "Tu amor me enseña que cada pequeño paso cuenta.",
+  "Eres mi ancla en los momentos difíciles y mi impulso en los días buenos.",
+  "Amarte me hace sentir que todo es posible.",
+  "Tu amor es el recordatorio de que los mejores días están por venir.",
+  "Eres el reflejo de todo lo que quiero ser.",
+  "Nuestro amor es un recordatorio constante de que vale la pena luchar.",
+  "Amarte me da fuerzas para enfrentar cualquier desafío.",
+  "Tu apoyo es la razón por la que nunca dejo de intentar.",
+  "Juntos somos la prueba de que el amor verdadero existe.",
+  "Eres la inspiración detrás de cada uno de mis logros.",
+  "Amarte me hace sentir que no hay límites para lo que podemos lograr.",
+  "Tu amor es la mayor motivación para enfrentar cualquier adversidad.",
+  "Eres mi faro en los días oscuros y mi guía en los claros.",
+  "Nuestro amor es un ejemplo de que juntos somos invencibles.",
+  "Tu amor es mi mayor fortaleza y mi mayor alegría.",
+  "Amarte me inspira a enfrentar cada día con valentía."
+];
+
+    
+    function mostrarMensajedeamor() {
+      // Obtener un índice aleatorio entre 0 y la longitud del array de mensajes
+      const indiceAleatorio1 = Math.floor(Math.random() * mensajes.length);
+      
+      // Cambiar el contenido del modal con un mensaje aleatorio
+      document.getElementById('modalMensaje1').textContent = mensajes[indiceAleatorio1];
+    }   
+     function mostrarMensajetriste() {
+      // Obtener un índice aleatorio entre 0 y la longitud del array de mensajes
+      const indiceAleatorio2 = Math.floor(Math.random() * mensajesMotivacionales.length);
+      
+      // Cambiar el contenido del modal con un mensaje aleatorio
+      document.getElementById('modalMensaje2').textContent = mensajesMotivacionales[indiceAleatorio2];
+    }
+  </script>
+</body>
+</html>
